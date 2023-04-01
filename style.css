@@ -1,0 +1,267 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+.hero {
+  display: flex;
+  width: 1000px;
+  height: 500px;
+  background-image: url(./img/hero/back.png);
+  background-repeat: no-repeat;
+}
+/* .first {
+  width: 300px;
+  height: 500px;
+  background-image: url(./img/hero/Rectangle2.png);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.second {
+  width: 300px;
+  height: 500px;
+  background-image: url(./img/hero/Rectangle30.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.third {
+  width: 300px;
+  height: 500px;
+  background-image: url(./img/hero/Rectangle31.png);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.four {
+  width: 300px;
+  height: 500px;
+  background-image: url(./img/hero/back.png);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.five {
+  width: 300px;
+  height: 500px;
+  background-image: url(./img/hero/hero-designer.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+} */
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.nav {
+  padding: 30px 100px;
+}
+.nav-list {
+  display: flex;
+}
+
+.nav-list__item:not(:last-child) {
+  margin-right: 30px;
+  color: red;
+}
+
+.reviews__list {
+  display: flex;
+}
+
+.reviews__item::before {
+  content: "";
+  display: block;
+
+  width: 72px;
+  height: 62px;
+
+  margin: 0 auto 50px;
+
+  background-image: url(./img/hero/IMAGE.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.reviews__item:not(:last-child) {
+  margin-right: 130px;
+}
+
+.reviews__text {
+  width: 489px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+
+  text-align: center;
+
+  color: #e4d8cc;
+}
+/* ------------------------------ About ----------------------------- */
+.about {
+}
+
+.about__title {
+  width: 895px;
+
+  font-family: "Reem Kufi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 108px;
+
+  color: #000000;
+}
+
+.about__button {
+  display: block;
+  width: 100px;
+  height: 50px;
+  background-color: transparent;
+  transition: background-color 300ms linear;
+}
+
+.about__button:hover,
+.about__button:active {
+  background-color: red;
+}
+
+a:visited {
+  color: blue;
+}
